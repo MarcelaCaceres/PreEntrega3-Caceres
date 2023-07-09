@@ -1,0 +1,24 @@
+@mixin titulos($fz, $cl,$ta){
+    font-size: $fz;
+    color: $cl;
+    text-align:$ta;
+}
+
+
+h1{
+    @include titulos(50px,rgb(34, 19, 19) ,center )
+}
+.parrafo1{
+    @include titulos(30px,rgb(94, 48, 94) ,center )
+
+}
+
+.descripcion{
+    @include titulos(25px,rgb(93, 66, 93) ,center )
+}
+.pareja{
+
+    @include titulos(30px,rgb(92, 62, 92) ,center )
+    
+
+}

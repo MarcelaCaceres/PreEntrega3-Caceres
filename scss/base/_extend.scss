@@ -1,0 +1,29 @@
+%row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+    border-style: double;
+    border-color: rgb(185, 175, 196)
+
+
+}
+
+
+
+
+
+.lascabanas {
+    @extend %row;
+ 
+
+}
+
+@media screen and (max-width:768px) {
+    .lascabanas{
+        display: grid;
+      
+        
+}
+    }
+

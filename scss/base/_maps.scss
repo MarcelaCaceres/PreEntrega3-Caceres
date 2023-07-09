@@ -1,0 +1,11 @@
+$mapa-1: (
+       bg: pink, 
+       mrg: 20px 30px,
+       brd: 2px,
+       font-size: 25px
+
+);
+
+.contacto{
+       font-size: map-get($mapa-1, $key: font-size );
+}

@@ -1,0 +1,32 @@
+@import './base/colores';
+@import './base/extend';
+@import './base/maps';
+@import './base/mixin';
+@import './base/vars';
+
+@import './componentes/footer';
+
+
+body{
+    background-color: $clr-1;
+}
+
+.color-letra{
+    color:$clr-4 ;
+}
+.clase-borde{
+    border-color: black;
+    border-style: solid;
+}
+@media screen and (max-width:768px) {
+    .lascabanas{
+        grid-template-columns: auto;
+    }
+    
+}
+.cartas2{
+    background-color: $background-color1;
+    margin: 10px;
+    padding: 10px;
+}
+
