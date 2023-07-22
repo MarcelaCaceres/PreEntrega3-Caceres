@@ -18,6 +18,7 @@
 }
 .contacto {
   font-size: 25px;
+  margin: 55px;
 }
 
 h1 {
@@ -36,12 +37,14 @@ h1 {
   font-size: 25px;
   color: rgb(93, 66, 93);
   text-align: center;
+  margin: 55px;
 }
 
 .pareja {
   font-size: 30px;
   color: rgb(92, 62, 92);
   text-align: center;
+  margin: 55px;
 }
 
 footer div {
@@ -71,6 +74,14 @@ body {
   background-color: rgba(175, 128, 196, 0.991);
   margin: 10px;
   padding: 10px;
+}
+
+.fs-4 {
+  margin: 55px;
+}
+
+.nav1 {
+  background-color: violet;
 }
 
 /*# sourceMappingURL=style.css.map */

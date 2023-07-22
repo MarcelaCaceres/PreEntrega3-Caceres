@@ -14,11 +14,16 @@ h1{
 }
 
 .descripcion{
-    @include titulos(25px,rgb(93, 66, 93) ,center )
+    @include titulos(25px,rgb(93, 66, 93) ,center );
+    margin: 55px;
 }
 .pareja{
+   
+    @include titulos(30px,rgb(92, 62, 92) ,center );
+    margin: 55px;
+    
+   
 
-    @include titulos(30px,rgb(92, 62, 92) ,center )
     
 
 }

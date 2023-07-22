@@ -8,4 +8,5 @@ $mapa-1: (
 
 .contacto{
        font-size: map-get($mapa-1, $key: font-size );
+       margin: 55px;
 }
